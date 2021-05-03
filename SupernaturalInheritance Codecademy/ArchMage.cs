@@ -10,6 +10,14 @@ namespace SupernaturalInheritance_Codecademy
     {
         public ArchMage(string Title) : base(Title) { }
 
+        public override Storm CastRainStorm()
+        {
+            return new Storm("Rain", true, Title);
+        }
 
+        public Storm CastLightningStorm()
+        {
+            return new Storm("Lightning", true, Title);
+        }
     }
 }

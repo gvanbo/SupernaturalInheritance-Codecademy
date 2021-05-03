@@ -18,7 +18,12 @@ namespace SupernaturalInheritance_Codecademy
             Storm rainStorm = m.CastRainStorm();
             Console.WriteLine(rainStorm.Announce());
 
+            ArchMage sauroman = new ArchMage("Sauroman");
+            Storm aRainStorm = sauroman.CastRainStorm();
+            Storm sLightningStorm = sauroman.CastLightningStorm();
 
+            Console.WriteLine(aRainStorm.Announce());
+            Console.WriteLine(sLightningStorm.Announce());
 
 
         }

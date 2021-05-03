@@ -10,7 +10,7 @@ namespace SupernaturalInheritance_Codecademy
     {
         public Mage(string Title ) : base(Title){ }
 
-        public Storm CastRainStorm()
+        public virtual Storm CastRainStorm()
         {
             return new Storm("Rain", false, Title); 
         }
