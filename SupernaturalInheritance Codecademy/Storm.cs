@@ -34,7 +34,7 @@ namespace SupernaturalInheritance_Codecademy
             string strength;
             if (IsString == true) strength = "strong";
             else strength = "weak";
-            string message = $"{Caster} casts a {strength} {Essence}.";
+            string message = $"{Caster} casts a {strength} {Essence} storm.";
             return message;
         }
 

@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace SupernaturalInheritance_Codecademy
 {
-    class Mage
+    class Mage : Pupil
     {
+        public Mage(string Title ) : base(Title){ }
+
+        public Storm CastRainStorm()
+        {
+            return new Storm("Rain", false, Title); 
+        }
+
+
     }
 }

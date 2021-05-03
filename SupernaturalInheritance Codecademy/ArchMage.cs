@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace SupernaturalInheritance_Codecademy
 {
-    class ArchMage
+    class ArchMage : Mage
     {
+        public ArchMage(string Title) : base(Title) { }
+
+
     }
 }
